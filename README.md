@@ -1,36 +1,12 @@
-# 📝 Keeper App (React + Vite)
+# React + Vite
 
-A minimal note-taking app built using **React** and **Vite**, inspired by Google Keep. You can add and delete short notes easily — perfect for learning React fundamentals!
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
- Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
--  Add and delete notes
--  Fast and lightweight with Vite
--  Built using React Hooks
--  Simple, clean UI
+## Expanding the ESLint configuration
 
----
-
-## Screenshot
-
-![App Screenshot](https://via.placeholder.com/800x400?text=Keeper+App+Screenshot)
-
----
-
-## Tech Stack
-
-- [React](https://react.dev/)
-- [Vite](https://vitejs.dev/)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [HTML + CSS](https://developer.mozilla.org/en-US/docs/Web)
-
----
-
-## 🔧 Setup Instructions
-
-1. **Clone the Repo**
-   ```bash
-   git clone https://github.com/your-username/Keeper-App-Vite.git
-   cd Keeper-App-Vite
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
